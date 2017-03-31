@@ -18,6 +18,9 @@
 -----------------------------------------------------------------------------------------------------------------------------
 ## 二.斌斌学院--JS基础练习
 
+### 任务三：零基础JS编码(三)
+[点击查看](https://happyzhangxiaoyi.github.io/Baidu-ife/lesson2/task3.html)
+
 ### 任务二：零基础JS编码(二)
 [点击查看](https://happyzhangxiaoyi.github.io/Baidu-ife/lesson2/task2.html)
 
