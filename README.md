@@ -4,7 +4,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------
 
-昨天又重温了一遍爆裂鼓手，很多人都觉得太偏激，但从我的私心来讲，真羡慕男主 **be the greatest, or nothing** 的那种追求极致的偏执精神。有一句台词很好，希望激励自己。 **There are no two words in the English lauguage more harmful than good job**
+又重温了一遍爆裂鼓手，很多人都觉得太偏激，但从我的私心来讲，真羡慕男主 **be the greatest, or nothing** 的那种追求极致的偏执精神。有一句台词很好，希望激励自己。 **There are no two words in the English lauguage more harmful than good job**
 
 -------------------------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@
 ### 任务二：零基础JS编码(二)
 [点击查看](https://happyzhangxiaoyi.github.io/Baidu-ife/lesson2/task2.html)
 
-### 任务二：零基础JS编码(一)
+### 任务一：零基础JS编码(一)
 [点击查看](https://happyzhangxiaoyi.github.io/Baidu-ife/lesson2/task1.html)
 
 ## 一.小薇学院--HTML/CSS基础入门挑战
