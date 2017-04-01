@@ -18,9 +18,12 @@
 -----------------------------------------------------------------------------------------------------------------------------
 ## 二.斌斌学院--JS基础练习
 
+### 任务四：基础JavaScript练习(一)
+这次没有点击查看了，在GitHub上又是没有效果(哭)，暂时不管兼容性了，先把效果实现吧
+
 ### 任务三：零基础JS编码(三)
 [点击查看](https://happyzhangxiaoyi.github.io/Baidu-ife/lesson2/task3.html)
-**也只能在Google浏览器下实现效果**
+** 只能在Google浏览器下实现效果**
 
 ### 任务二：零基础JS编码(二)
 [点击查看](https://happyzhangxiaoyi.github.io/Baidu-ife/lesson2/task2.html)
