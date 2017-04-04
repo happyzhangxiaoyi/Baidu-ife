@@ -1,0 +1,63 @@
+button{
+			position: absolute;
+			top:160px;
+			left: 0;
+			width:70px;
+			height:25px;
+			border-style: none;
+			margin:10px;
+            background-color:#ff847c ;
+            color:white;
+        }
+
+        #bubble_sort{
+        	margin-left: 50px;
+        }
+
+        #body{
+        	position: relative;
+        	border:2px solid purple;
+        	height:200px;
+            width:500px;
+        }
+        #right_btin{
+            margin-left: 90px;
+        }
+        #left_btout{
+        	margin-left: 170px;
+        }
+        #right_btout{
+        	margin-left:250px;
+        }
+        #search{
+        	position: absolute;
+        	left:310px;
+        	top:10px;
+        	height:20px;
+        }
+        #searchbt{
+        	position: absolute;
+        	top:40px;
+            left:360px;
+            background-color: #e84a5f;
+        }
+
+        #text{
+            background-color: #aa96da;
+            margin:2px;
+            display: inline-block;
+            border-style: none;
+            font-family: "Microsoft Yahei";
+            font-size: 20px;
+            color:purple;
+        }
+
+        #matchText{
+            background-color: purple;
+            color:white;
+            margin:2px;
+            display: inline-block;
+            border-style: none;
+            font-family: "Microsoft Yahei";
+            font-size: 20px;
+        }
