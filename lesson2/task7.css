@@ -1,0 +1,31 @@
+div{
+	display:flex;
+	padding:20px;
+	flex-flow:row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	border:2px solid #6a2c70;
+	margin:0 5px;
+}
+
+#parent{
+	width:750px;
+}
+
+.currentItem{
+	background-color: #aa96da;
+}
+
+.otherItem{
+	background-color: white;
+}
+
+button{
+	background-color: #f08a5d;
+	border-style: none;
+	color:white;
+	width:150px;
+	height:40px;
+	font-size: 16px;
+	margin:50px;
+}
