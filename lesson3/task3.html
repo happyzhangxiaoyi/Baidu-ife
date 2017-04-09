@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task03</title>
+	<link rel="stylesheet" href="task3.css"/>
+</head>
+<body>
+<form class="form" method="post">
+    <fieldset id = "radio">
+		<input type="radio" name="education" id="yes"/><label for="yes" class="">在校生</label>
+		<input type="radio" name="education" id="no"/><label for="no" class="">非在校生</label>
+	</fieldset>
+	
+	<fieldset id="school">
+	<p>学校</p>
+	<div id="wrap">
+		<select name="city" id="cityList">
+			<option>请选择所在城市</option>
+			<option value="Beijing">北京</option>
+			<option value="Shanghai">上海</option>
+			<option value="Guangzhou">广州</option>
+			<option value="Tianjing">天津</option>
+		</select>
+	</div>
+	
+	<div id="wrap">
+		<select name="school" id="schoolList">
+			<option>请选择所在学校</option>
+		</select>
+	</div>
+	</fieldset>
+
+	
+	<fieldset id="society">
+	<p>工作单位</p>
+	<div id="wrap">
+		<select name="company" id="company">
+		    <option>请选择所在公司</option>
+			<option>公司A</option>
+			<option>公司B</option>
+			<option>公司C</option>
+			<option>公司D</option>
+			<option>公司E</option>
+			<option>公司F</option>
+			
+		</select>
+	</div>
+	</fieldset>
+	<script src="task3.js"></script>
+</body>
+</html>

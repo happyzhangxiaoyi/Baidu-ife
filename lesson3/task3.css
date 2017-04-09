@@ -1,0 +1,62 @@
+fieldset{
+	position:relative;
+	padding-left: 80px;
+	border-style: none;
+}
+
+#radio input,#school,#society{
+	display: none;
+}
+
+label{
+	background:url(unselected.jpg);
+	background-size: 18px 18px;
+	display: inline-block;
+	height:20px;
+	line-height: 20px;
+	text-indent: 20px;
+	background-repeat:no-repeat;
+	margin:0 70px;
+}
+
+.checked{
+	background:url(selected.jpg);
+	background-size: 18px 18px;
+	display: inline-block;
+	height:20px;
+	line-height: 20px;
+	text-indent: 20px;
+	background-repeat:no-repeat;
+	margin:0 70px;
+}
+
+#wrap{
+	background:url("more.jpg") no-repeat;
+	background-size: 30px 30px;
+	background-position: 170px;
+	width:200px;
+	height:30px;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+#wrap select{
+	background:transparent;
+	padding-left: 15px;
+	width:215px;
+	height: 100%;
+	border:3px solid #95e1d3;
+	font-size: 15px;
+
+}
+
+p{
+	position: absolute;
+	left:20px;
+	top:-6px;
+}
+
+#company{
+	margin-left: 20px;
+}
