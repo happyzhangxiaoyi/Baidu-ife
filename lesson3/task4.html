@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task04</title>
+	<style>
+	    body,#chessbord,#chessboard2{
+	    	absolute:relative;
+	    }
+		#chessboard,#chessboard2{
+			width:300px;
+			height:300px;
+			border:2px solid gray;
+			margin:30px;
+			position: absolute;
+		}
+
+		#number1{
+			position: absolute;
+			height:20px;
+			width:300px;
+			top:-21px;
+			text-indent: 0.5em;
+			word-spacing: 15.5px;
+		}
+
+		#number2{
+			position: absolute;
+			height:300px;
+			width:20px;
+			left:-21px;
+			text-indent: 0.5em;
+			word-spacing: 16px;
+			writing-mode: tb-rl;
+		    /*不知道为什么text-align:justify不能用;*/
+		}
+
+		#block{
+			width:10%;
+			height: 10%;
+			background-color:#aa96da;
+
+        }
+
+        #dark{
+        	width:30px;
+        	height:5px;
+        	background-color: purple;
+        }
+
+        #row{
+        	width:300px;
+        	height:9.7%;
+        	border-bottom:0.05px solid #ccc; 
+        }
+
+        #col{
+        	width:9.65%;
+        	height:300px;
+        	border-left:0.05px solid #ccc;
+        	float:left;
+        }
+
+        button{
+        	position: absolute;
+        	top:350px;
+        	margin-left:50px;
+        }
+
+        #left{
+        	margin-left: 120px;
+        }
+
+        #back{
+        	margin-left:190px;
+        }
+        #go{
+        	margin-left: 250px;
+        }
+
+	</style>
+</head>
+<body>
+	<div id="chessboard">
+	    <div id="number1">1 2 3 4 5 6 7 8 9 10</div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+        <div id="block" style="position: absolute; top:0;left: 0;">
+			<div id="dark"></div>
+	    </div>
+	</div>
+
+	<div id="chessboard2">
+	    <div id="number2">1 2 3 4 5 6 7 8 9 10</div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+    </div>
+    <button id="right">顺时针</button>
+    <button id="left">逆时针</button>
+    <button id="back">翻转</button>
+    <button id="go">移动</button>
+    <script src="task4.js"></script>
+</body>
+</html>
