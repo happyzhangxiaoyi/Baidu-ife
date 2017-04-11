@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task05</title>
+	<link rel="stylesheet" type="text/css" href="task5.css"/>
+</head>
+<body>
+	<div id="chessboard">
+	    <div id="number1">1 2 3 4 5 6 7 8 9 10</div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+		<div id="row"></div>
+        <div id="block" style="position: absolute; top:0;left: 0;">
+	    </div>
+	</div>
+
+	<div id="chessboard2">
+	    <div id="number2">1 2 3 4 5 6 7 8 9 10</div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+		<div id="col"></div>
+    </div>
+    <button id="right">顺时针</button>
+    <button id="left">逆时针</button>
+    <button id="back">翻转</button>
+    <button id="go">移动</button>
+   
+    <button id="toleft">向左</button>
+    <button id="toright">向右</button>
+    <button id="totop">向上</button>
+    <button id="tobottom">向下</button>
+
+    <button id="leftMove">转左边移</button>
+    <button id="rightMove">转右边移</button>
+    <button id="topMove">转上边移</button>
+    <button id="bottomMove">转下边移</button>
+    <p>说明：<br/>第一行命令--让小方块翻转，移动是按照当前深色部分朝向的方向移动一格<br/>第二行命令--不管深色部分朝向整体移动<br/>
+    第三行命令--先转向指定方向再进行移动</p>
+    
+    <script src="task5.js"></script>
+</body>
+</html>
